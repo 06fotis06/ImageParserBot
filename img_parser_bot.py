@@ -55,7 +55,7 @@ def img_down(url='', name=''):
 				file.write(response.content)
 			return sea+'/'+name+'.jpg'
 		except Exception as _ex:
-			return 'нихуя'
+			return 'Не получилось скачать'
 			
 
 def forimg():
